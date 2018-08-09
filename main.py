@@ -6,7 +6,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser = argparse.ArgumentParser()
     parser.add_argument('--batch_size', type=int, default=64)
-    parser.add_argument('--epoches', type=int, default=2)
+    parser.add_argument('--epoches', type=int, default=10`)
     parser.add_argument('--mu', type=int, default=128)
     parser.add_argument('--n_residue', type=int, default=24)
     parser.add_argument('--n_skip', type=int, default=128)
