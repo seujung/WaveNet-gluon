@@ -2,6 +2,8 @@
 
 Gluon implementation of [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)
 
+![net_structure1](images/net_struc1.png)
+![net_structure2](images/net_struc2.png)
 
 ## Requirements
 - Python 3.6.1
@@ -34,13 +36,22 @@ or
 
 ###### manual setting
 ```
-python main.py --batch_size=32 --epoches=100
+python main.py --batch_size=32 --epoches=100 ...
 ```
+## Train progress
+###### 0 epoch
+![epoch0](images/progress_epoch0.png)
+
+###### 200 epoch
+![epoch200](images/progress_epoch200.png)
+
+###### 400 epoch
+![epoch400](images/progress_epoch400.png)
+
 
 ## Results
-![perf_acc](images/perf_result_acc.png)
-
-![perf_loss](images/perf_result_l.png)
+![perf_loss](images/loss.png)
 
 ## Reference
-- https://github.com/kimhc6028/relational-networks
+- https://deepmind.com/blog/wavenet-generative-model-raw-audio/
+
