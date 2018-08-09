@@ -46,7 +46,7 @@ python main.py --batch_size=32 --epoches=100 ...
 ![epoch200](images/progress_epoch200.png)
 
 ###### 400 epoch
-![epoch400](images/progress_epoch400.png)
+![epoch400](images/progress_epoches400.png)
 
 
 ## Results
@@ -54,4 +54,5 @@ python main.py --batch_size=32 --epoches=100 ...
 
 ## Reference
 - https://deepmind.com/blog/wavenet-generative-model-raw-audio/
+- https://gist.github.com/lirnli/4282fcdfb383bb160cacf41d8c783c70#file-pytorch-wavenet-ipynb
 
