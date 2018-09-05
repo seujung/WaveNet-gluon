@@ -23,11 +23,6 @@ Gluon implementation of [WaveNet: A Generative Model for Raw Audio](https://arxi
   - use_gpu : Use GPU  (default=True)
   - generation : generate wav file for model (default=True)
 
-###### data generation
-```
-python sort-of-clevr.py
-``` 
-
 ###### default setting
 ```
 python main.py
